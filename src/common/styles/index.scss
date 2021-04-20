@@ -1,0 +1,481 @@
+@charset "utf-8";
+
+// 样式重置
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  /*background: transparent;*/
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+fieldset,
+img {
+  border: 0;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+caption,
+th {
+  text-align: left;
+}
+
+:focus {
+  outline: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover img {
+  border: none;
+}
+
+a:active {
+  noOutline: expression(this.onFocus=this.blur());
+}
+
+/*清除浮动*/
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.clearfix {
+  display: inline-block;
+}
+
+/* Hides from IE-mac \*/
+* html .clearfix {
+  height: 1%;
+}
+
+.clearfix {
+  display: block;
+}
+
+/* End hide from IE-mac */
+
+/*png css hack for ie6*/
+*html img.png {
+  _background-image: expression(this.runtimeStyle.backgroundImage="none", this.runtimeStyle.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='"+ this.src + "', sizingMethod='image')", this.src="http://i0.itc.cn/20101019/848_0a785a7b_1118_4825_85dc_e8696988c94b_0.gif");
+}
+
+.fr {
+  float: right;
+}
+
+.fl {
+  float: left;
+}
+
+.pr-5 {
+  padding-right: 5px;
+}
+
+.pl-5 {
+  padding-left: 5px;
+}
+
+.block {
+  display: block;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.text-center {
+  text-align: center
+}
+
+.margin-auto {
+  margin: 0 auto;
+}
+
+.text-right {
+  text-align: right
+}
+
+.border-b {
+  border-bottom: 1px solid #E4E7ED;
+}
+
+.border-r {
+  border-right: 1px solid #E4E7ED;
+}
+
+.border-l {
+  border-left: 1px solid #E4E7ED;
+}
+
+.border-t {
+  border-top: 1px solid #E4E7ED;
+}
+
+//宽度
+.w-100 {
+  width: 100px;
+}
+
+.w-120 {
+  width: 120px;
+}
+
+.w-200 {
+  width: 200px;
+}
+
+.w-250 {
+  width: 250px;
+}
+
+.w-300 {
+  width: 300px;
+}
+
+.w-400 {
+  width: 400px;
+}
+
+.w-700 {
+  width: 700px;
+}
+
+.w-850 {
+  width: 850px;
+}
+
+.w-900 {
+  width: 900px;
+}
+
+//颜色
+.red {
+  color: #FF1237;
+}
+
+.orange {
+  color: #FA944F;
+}
+
+.blue {
+  color: #498DF3;
+}
+
+.a-hover {
+  color: #498DF3;
+  cursor: pointer;
+  padding-right: 10px;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+
+//margin 
+.mb {
+  margin-bottom: 15px;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.pr-50 {
+  padding-right: 50px;
+}
+
+.pl-50 {
+  padding-left: 50px;
+}
+
+.app-container {
+  background: #ffffff;
+  margin: 20px;
+
+  .header {
+    height: 60px;
+    padding: 0 24px;
+    border-bottom: 2px solid #E5E5E5;
+
+    .title {
+      line-height: 60px;
+      font-size: 20px;
+    }
+
+    .operation {
+      font-size: 12px;
+      margin-top: 15px;
+    }
+  }
+
+  .contents {
+    padding: 24px;
+    margin-bottom: 60px;
+  }
+}
+
+.relative {
+  position: relative;
+  background: #ECF3FD;
+  height: 40px;
+  line-height: 40px;
+  margin: 45px 0 24px 10px;
+  padding-left: 45px;
+  font-weight: 600;
+
+  span {
+    color: #8E939A;
+    font-size: 14px;
+    font-weight: normal;
+  }
+
+  .order {
+    height: 38px;
+    width: 38px;
+    line-height: 38px;
+    text-align: center;
+    color: #ffffff;
+    background: #498DF3;
+    position: absolute;
+    left: -10px;
+    top: -10px;
+  }
+}
+
+.orange {
+  color: #FA944F;
+}
+
+.pager-wrapper {
+  text-align: right;
+  margin-right: 30px;
+}
+.sheet {
+  margin-top: 24px;
+
+  
+
+  .el-tabs--card>.el-tabs__header {
+    border-bottom: 2px solid #1a74ef;
+  }
+
+  .el-tabs--card>.el-tabs__header .el-tabs__item {
+    border-bottom: 0px solid #1a74ef;
+  }
+
+  .el-tabs--card>.el-tabs__header .el-tabs__nav {
+    border-radius: 0;
+    border: 1px solid #1a74ef;
+
+    div {
+      color: #1a74ef;
+      background: #fff;
+    }
+    .is-active{
+      color: #fff;
+      background: #1a74ef;
+    }
+  }
+
+  .el-table th>.cell {
+    text-align: center;
+  }
+
+  .el-table .cell {
+    text-align: center;
+  }
+}
+
+.fl-clear {
+  clear: both;
+}
+
+.el-main {
+  padding: 0;
+}
+
+.operation-warper {
+  position: fixed;
+  bottom: 0;
+  z-index: 10;
+  background: #fff;
+  padding: 10px 0px;
+  margin-left: -20px;
+  width: calc(100% - 200px);
+  -webkit-box-shadow: 0 0px 9px 0px #b7b5b5;
+  box-shadow: 0 0px 9px 0px #b7b5b5;
+}
+
+/deep/ .el-input__icon {
+  line-height: 32px !important;
+}
+//原生button
+.btn,.btn-white{
+    height: 32px;
+    // min-width: 50px;
+    padding: 0 18px;
+    background:#1a74ef;    
+    color: #fff;
+    border: 0;
+    border-radius: 2px;
+    cursor: pointer;
+    margin:  0 5px;
+}
+.btn-white{
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #d9d9d9;
+}
+.btn:hover, .el-button:hover,button:hover{
+    opacity: .3;   
+}
+
+// 移除树状图单选框样式
+.el-cascader__dropdown .el-radio__inner{
+    display: none;
+}
+.el-cascader__dropdown .el-radio{
+    position: absolute;
+    width: 70%;
+    height: 100%;
+}
+
+
+
+/*滚动条的宽度*/
+::-webkit-scrollbar {
+  width:7px;
+  height:7px;
+}
+
+/*外层轨道。可以用display:none让其不显示，也可以添加背景图片，颜色改变显示效果*/
+::-webkit-scrollbar-track {
+  width: 6px;
+  background-color:#fff;
+  -webkit-border-radius: 2em;
+  -moz-border-radius: 2em;
+  border-radius:2em;
+}
+
+/*滚动条的设置*/
+::-webkit-scrollbar-thumb {
+  background-color:#d6d6d6;
+  background-clip:padding-box;
+  min-height:28px;
+  -webkit-border-radius: 2em;
+  -moz-border-radius: 2em;
+  border-radius:2em;
+}
+
+/*滚动条移上去的背景*/
+::-webkit-scrollbar-thumb:hover {
+  background-color:#fff;
+}
+
+.remarks {
+  h4 {
+    margin: 24px 0;
+    padding: 0;
+    border-bottom: none;
+    border-left: 5px solid #3671e2;
+    background: url(~@/assets/icons/bgline.png) 0 3px repeat-x;
+
+    span {
+      padding: 0 8px;
+      background: #fff;
+    }
+  }
+}

@@ -1,0 +1,9 @@
+titleLogo：标题logo;
+title:标题;
+loginLogo：登录上面的logo;
+unit:主办单位;
+version：主页面版本信息
+contact：联系单位;
+tieleIcon：主页面信息旁logo;
+缩略的网站标志,它显示位于浏览器的地址栏或者在标签上,用于显示网站的logo在
+它显示位于浏览器的地址栏,用于显示网站的标题   在index.html文件的title标签中修改。

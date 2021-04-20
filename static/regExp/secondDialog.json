@@ -1,0 +1,158 @@
+{
+  "LEGAL_NAME": true,
+  "LEGAL_NAME_FLAG": "^[\\S\\s]{2,200}$",
+  "LEGAL_NAME_FLAG_MSG": "请规范输入公司名称",
+
+  "TYPE": true,
+  "TYPE_FLAG": "",
+  "TYPE_FLAG_MSG": "",
+
+  "LEGALID_CARD_NUMBER": true,
+  "LEGALID_CARD_NUMBER_FLAG": "^([^_IOZSVa-z\\W]{2}\\d{6}[^_IOZSVa-z\\W]{10})|[/]{1}$",
+  "LEGALID_CARD_NUMBER_FLAG_MSG": "请规范输入的统一信用代码",
+
+  "PLACE": true,
+  "PLACE_FLAG": "",
+  "PLACE_FLAG_MSG": "",
+
+  "PLACE_TIME": true,
+  "PLACE_TIME_FLAG": "",
+  "PLACE_TIME_FLAG_MSG": "",
+
+  "LEGAL_PERSON_NAME": true,
+  "LEGAL_PERSON_NAME_FLAG": "^[\u4E00-\u9FA5A-Za-z]+$",
+  "LEGAL_PERSON_NAME_FLAG_MSG": "请规范输入法定代表人",
+
+  "PLACE_ADDRESS": true,
+  "PLACE_ADDRESS_FLAG": "^[\\S\\s]{2,500}$",
+  "PLACE_ADDRESS_FLAG_MSG": "地址长度为2 ~ 500个字符",
+
+  "WORK_ADDRESS": true,
+  "WORK_ADDRESS_FLAG": "^[\\S\\s]{2,500}$",
+  "WORK_ADDRESS_FLAG_MSG": "地址长度为2 ~ 500个字符",
+
+  "ID_NUMBER": true,
+  "ID_NUMBER_FLAG": "^(\\d{18,18}|\\d{15,15}|\\d{17,17}X)$",
+  "ID_NUMBER_FLAG_MSG": "请输入正确的公民身份证号码",
+
+  "PHONE": true,
+  "PHONE_FLAG": "^1[3456789]\\d{9}$",
+  "PHONE_FLAG_MSG": "请输入正确的电话号码",
+
+
+
+
+
+
+  "UNIFORM_SOCIAL_CREDIT_CODE":true,
+  "UNIFORM_SOCIAL_CREDIT_CODE_FLAG":"^([^_IOZSVa-z\\W]{2}\\d{6}[^_IOZSVa-z\\W]{10})|[/]{1}$",
+  "UNIFORM_SOCIAL_CREDIT_CODE_FLAG_MSG":"请输入规范的统一信用代码",
+
+  "ORGANIZATION_CODE":false,
+  "ORGANIZATION_CODE_FLAG":"",
+  "ORGANIZATION_CODE_FLAG_MSG":"",
+
+  "BUSINESS_PRACTICE": true,
+  
+  "EMAIL": true,
+  "EMAIL_FLAG": "^([a-z0-9A-Z]+[-|.]?)+[a-z0-9A-Z]@([a-z0-9A-Z]+(-[a-z0-9A-Z]+)?.)+[a-zA-Z]{2,}$",
+  "EMAIL_FLAG_MSG": "请输入规范的邮箱",
+
+  "INDUSTRIAL_CATEGORY": true,
+
+  "FAX": false,
+  "FAX_FLAG": "",
+  "FAX_FLAG_MSG": "",
+
+  "UNIT_TYPE": true,
+
+  "INDUSTRY_TYPE": true,
+
+  "ECONOMIC_TYPE": true,
+
+  "COMPANT_URL":false,
+  "COMPANT_URL_FLAG": "",
+  "COMPANT_URL_FLAG_MSG": "",
+  
+  "REGISTER_DATE": true,
+
+  "REGISTERED_CAPITAL": true,
+  "REGISTERED_CAPITAL_FLAG": "",
+  "REGISTERED_CAPITAL_FLAG_MSG": "",
+
+  "CURRENCY":true,
+  
+  "BOSS": true,
+
+  "MEMBERSHIP_FUNCTION": true,
+
+  "LICENSE_NUMBER":false,
+  "LICENSE_NUMBER_FLAG":"",
+  "LICENSE_NUMBER_FLAG_MSG":"",
+
+  "LEGAL_REPRESENTATIVE": true,
+  "LEGAL_REPRESENTATIVE_FLAG": "",
+  "LEGAL_REPRESENTATIVE_FLAG_MSG": "",
+
+  "LEGAL_REPRESENTATIVE_IDNUM": true,
+  "LEGAL_REPRESENTATIVE_IDNUM_FLAG": "^(\\d{18,18}|\\d{15,15}|\\d{17,17}X)$",
+  "LEGAL_REPRESENTATIVE_IDNUM_FLAG_MSG": "请输入正确的公民身份证号码",
+
+  "LEGAL_REPRESENTATIVE_PHONE": true,
+  "LEGAL_REPRESENTATIVE_PHONE_FLAG": "^1[3456789]\\d{9}$",
+  "LEGAL_REPRESENTATIVE_PHONE_FLAG_MSG": "请输入正确的电话号码",
+
+  "LEADER": true,
+  "LEADER_FLAG": "",
+  "LEADER_FLAG_MSG": "",
+
+  "LEADER_PHONE": true,
+  "LEADER_PHONE_FLAG": "^1[3456789]\\d{9}$",
+  "LEADER_PHONE_FLAG_MSG": "请输入正确的电话号码",
+
+  "LABOUR": true,
+  "LABOUR_FLAG": "",
+  "LABOUR_FLAG_MSG": "",
+
+  "LABOUR_PHONE": true,
+  "LABOUR_PHONE_FLAG":  "^1[3456789]\\d{9}$",
+  "LABOUR_PHONE_FLAG_MSG":  "请输入正确的电话号码",
+
+  "CONTACT": true,
+  "CONTACT_FLAG": "",
+  "CONTACT_FLAG_MSG": "",
+
+  "CONTACT_PHONE": true,
+  "CONTACT_PHONE_FLAG": "^1[3456789]\\d{9}$",
+  "CONTACT_PHONE_FLAG_MSG":  "请输入正确的电话号码",
+
+  "BUSINESS_REGISTRATION_CERTIFICATE_DATE": true,
+
+  "BUSINESS_REGISTRATION_EXPIRY_DATE": true,
+  "BUSINESS_REGISTRATION_EXPIRY_DATE_FLAG": "",
+  "BUSINESS_REGISTRATION_EXPIRY_DATE_FLAG_MSG": "",
+
+  "ACCOUNT_NAME": true,
+  "ACCOUNT_NAME_FLAG": "",
+  "ACCOUNT_NAME_FLAG_MSG": "",
+  
+  "BANK_NAME": true,
+  "BANK_NAME_FLAG": "",
+  "BANK_NAME_FLAG_MSG": "",
+
+  "BANK_ACCOUNT": true,
+  "BANK_ACCOUNT_FLAG": "",
+  "BANK_ACCOUNT_FLAG_MSG": "",
+
+  "MAIN_BUSINESS_SCOPE": true,
+  "MAIN_BUSINESS_SCOPE_FLAG": "",
+  "MAIN_BUSINESS_SCOPE_FLAG_MSG": "",
+
+  "SIDELINE_SCOPE": true,
+  "SIDELINE_SCOPE_FLAG": "",
+  "SIDELINE_SCOPE_FLAG_MSG": "",
+
+  "LICENSE_URL": true,
+  "LICENSE_URL_FLAG": "",
+  "LICENSE_URL_FLAG_MSG": ""
+}
